@@ -7,10 +7,77 @@ body {
 #search{
     display: flex;
     justify-content: center;
+    width:100px;
+
+}
+#search1{
+    background-color: red;
+    font-color: white;
+
+}
+.text1{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.text2 {
+    font-size: 15px;
+    text-align: center;
+    display: block;
+}
+
+.text2 p{
+    display: block;
+    margin: 0 auto; /* Centra cada párrafo horizontalmente */
+    max-width: 300px; /* Establece un ancho máximo para el texto */
 }
 
 #buttons{
     display: flex;
     justify-content: flex-start;
+}
+
+
+header > div {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+
+nav {
+    width: 600px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.blackHeart {
+    width: 20px;
+    margin-right: 1rem;
+}
+
+.logo{
+    width: 70px;
+    height: 30px;
+}
+
+.botones{
+    display: flex;
+    justify-content: space-evenly;
+
+
+
 }
 
